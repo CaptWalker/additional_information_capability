@@ -43,9 +43,10 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "additional_information_capability",
       filename: "remoteEntry.js",
-      remotes: {RFI: 'rfi@http://localhost:8083/remoteEntry.js',
-                RFA: 'rfa@http://localhost:8084/remoteEntry.js'
-              },
+      remotes: {
+        RFI: 'rfi@http://localhost:8083/remoteEntry.js',
+        RFA: 'rfa@http://localhost:8084/remoteEntry.js'
+      },
       exposes: {
         "./AIC": './src/AIC.jsx'
       },
