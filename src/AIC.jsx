@@ -13,8 +13,8 @@ function AIC() {
       >
         <CardHeader>Additional Information Capability</CardHeader>
         <CardBody>
-          <RFA />
           <RFI />
+          <RFA />
         </CardBody>
       </Card>
     </>
